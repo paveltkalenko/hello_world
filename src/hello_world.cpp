@@ -10,7 +10,11 @@
 using namespace std;
 
 int main() {
-	cout << "Testing git!!!" << endl;
+	int i;
+	cout << "Введите число:";
+	cin >> i;
+	cout << "Вы ввели число - " << i << endl;
+	cout << "Testing git!!! " << endl;
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
 	return 0;
 }
